@@ -44,3 +44,27 @@
     color: rgb(255, 255, 255);
    
 }
+
+
+@media (max-width:800px){
+
+    .cardpizzas{
+        display: flex;
+        flex-direction: column;
+      
+        
+    }
+
+    .cardpizzas p{
+        margin-top: 20px;
+    }
+
+
+
+
+    .cardpizzas img{
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+}

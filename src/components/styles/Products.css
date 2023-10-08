@@ -26,3 +26,13 @@
     cursor: pointer;
 }
 
+.chakaopizza{
+    border-radius: 20px;
+}
+
+.chakaopizza:hover{
+    transition: all 0.8s;
+    transform: scale(1.2);
+
+}
+

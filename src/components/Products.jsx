@@ -17,7 +17,7 @@ const Products = () => {
   return data.map((product) => (
     <div className='card' key={product.id}>
       <Link to='/pizza' onClick={() => selectPizza(product)}>
-        <img src={product.img} alt="imagen" />
+        <img className='chakaopizza' src={product.img} alt="imagen" />
       </Link>
       <h2>{product.name}</h2>
       <h3>${product.price}</h3>

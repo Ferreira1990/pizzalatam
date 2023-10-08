@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { dataContext } from './context/DataContext'
-
+import '../components/styles/cartTotal.css'
 const CartTotal = () => {
 
     const {cart} = useContext (dataContext);
@@ -8,11 +8,10 @@ const CartTotal = () => {
     const total = cart.reduce((acc,elemento) => acc + elemento.price, 0)
 
   return (
-    <div className='cartTotal'>
+  
 
         <h3>Total : ${total} </h3>
 
-    </div>
   )
 }
 
