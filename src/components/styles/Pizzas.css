@@ -1,0 +1,46 @@
+.Fathercardpizzas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.734), rgba(0, 0, 0, 0.773)), url(https://img.freepik.com/free-vector/illustration-italy-flag_53876-27098.jpg?w=1380&t=st=1696784074~exp=1696784674~hmac=29bd64969e8fdc21e78a304a4c99275fe69a2299e844f7efeeb34c91b5c7e8ce);
+    background-position: center;
+    background-size: cover;
+   
+
+
+  
+    
+}
+
+.cardpizzas{
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.cardpizzas img{
+    margin: 2px 20px; 
+   width: 300px;
+   border-radius: 20px;
+ 
+    
+}
+
+.cardpizzas h2{
+    margin: 2px 20px;   
+    color: rgb(255, 255, 255);
+ text-align: center;
+}
+
+.cardpizzas p{
+    margin: 2px 20px; 
+    max-width: 100px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+   
+}

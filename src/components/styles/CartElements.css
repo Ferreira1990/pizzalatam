@@ -1,0 +1,15 @@
+.cartContent img{
+    margin-top: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+.cartContent h2{
+    font-size: 16px;
+}
+
+.cartContent h3{
+    font-size: 14px;    
+}
+
+
