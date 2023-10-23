@@ -8,10 +8,11 @@ const CartTotal = () => {
     const total = cart.reduce((acc,elemento) => acc + elemento.price, 0)
 
   return (
-  
 
-        <h3>Total : ${total} </h3>
-
+    <> 
+     <h3>Total : ${total} </h3>
+     <button className='Buttoncarrito'>Pagar</button>
+        </>
   )
 }
 

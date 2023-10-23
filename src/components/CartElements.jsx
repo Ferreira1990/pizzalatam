@@ -10,6 +10,7 @@ const CartElements = () => {
         <div className='cartContent' key={product.id}>
             <img src={product.img} alt="product-card" />
             <h3>{product.name}</h3>
+            <p className='pcustomcart'>{product.ingredients}</p>
             <h4>{product.price}$</h4>
 
         </div>

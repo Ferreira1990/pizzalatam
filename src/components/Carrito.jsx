@@ -7,8 +7,10 @@ const Carrito = () => {
 
   
   return (
-    <div className='CarritoCustom'>      
+    <div className='CarritoCustom'>
+      <div className='CardContainerProducts'>      
       <CartElements />
+      </div>
       <CartTotal />
     </div>
   )

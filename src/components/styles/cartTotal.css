@@ -1,3 +1,17 @@
-.cartTotal{
-    background-color: rgb(68, 68, 68);
+.Buttoncarrito{
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 100px;
+   
+}
+
+.Buttoncarrito:hover{
+       transition: all 1s;
+    background-color: rgb(0, 192, 0);
+
 }
